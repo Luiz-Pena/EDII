@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1751834701 source:c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\main.cpp
+	<iostream>
+	"Modulo1.cpp"
+
+1751838271 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo1.cpp
+	<bits/stdc++.h>
+	"header.h"
+	<windows.h>
+
+1751834701 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\header.h
+	<bits/stdc++.h>
+
