@@ -1,12 +1,188 @@
-#include <bits/stdc++.h>
-#include "header.h"
-#include <windows.h>
-
-
-using namespace std;
+#include "print.cpp"
 
 int intervalo = 1000;
 
+void introducao_1 (){
+    int input;
+
+    system("cls");
+
+    print_falas ("Saudacoes, voce esta na aplicacao da empresa Volt & Cia.");
+    print_falas ("Aqui voce tera uma introducao de sua funcao na empresa.");
+
+    cout << "1. Nao estou pronto para entrar no mercado de trabalho ainda" << endl;
+    cout << "2. Oba amo trabalhar" << endl;
+    cout << "3. Quero aumento!" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input){
+        case 1:
+            cout << "- Nao estou pronto para entrar no mercado de trabalho ainda" << endl;
+            break;
+
+        case 2:
+            cout << "- Oba amo trabalhar" << endl;
+            break;
+
+        case 3:
+            cout << "- Quero aumento!" << endl;
+            break;
+
+        default:
+            cout << "(Voce diz coisas que nao foram esperadas pelo sistema)" << endl;
+            break;
+    }
+
+    Sleep(intervalo);
+
+    print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
+    print_falas ("Aguarde um momento enquanto a introducao carrega...");
+    print_falas ("Por favor, busque no armazem todos os resistores, eles estao etiquetados com o numero 3");
+
+    cout << "1. (Nao falar nada)" << endl;
+    cout << "2. Obrigado chefia!" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "(Voce decide nao falar nada respeitando a ordem do programa)" << endl;
+            break;
+
+        case 2:
+            cout << "- Obrigado chefia!" << endl;
+            print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
+            break;
+
+        default:
+            cout << "(Voce digita algo alem do escopo do sistema)" << endl;
+            print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
+            break;
+    }
+    Sleep(intervalo);
+
+}
+
+void introducao_2 (){
+    int input;
+
+    system("cls");
+
+    print_falas ("Bem vindo a segunda etapa da introducao de Volt & Cia");
+
+    print_falas ("Antes de comecar tenho alguns avisos, como o tempo de desenvolvimento da aplicacao foi reduzido, algumas features foram afetadas...");
+    print_falas ("Sao elas: Comunicacao com usuario");
+
+    cout << "1. Mas nem tinha antes!" << endl;
+    cout << "2. Mas o projeto nem comecou direito e ja ta indo pro fundo do poco?" << endl;
+    cout << "3. ?" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    cout << "Bem vindo a segunda etapa da introducao de Volt & Cia" << endl;
+    cout << "Antes de comecar tenho alguns avisos, como o tempo de desenvolvimento da aplicacao foi reduzido, algumas features foram afetadas..." << endl;
+    cout << "Sao elas: Comunicacao com usuario" << endl;
+
+    print_falas("Desing de cada fase introdutoria");
+    print_falas("Resumindo: comunicacao 0 com usuario e reutilizacao de partes");
+    print_falas("Boa sorte!");
+    print_falas ("Algumas modificacoes foram feitas no armazem que sera buscado");
+    print_falas ("Modificacao numero 1: o armazem esta organizado em ordem crescente");
+    print_falas ("Modificacao numero 2: os seus passos serao contados e serao mostrados para toda empresa");
+    print_falas ("Entao o recomendado e fazer algo similar a uma busca binaria, ja que nao nos responsabilizamos por qualquer criticas direcionadas ao intelecto");
+    print_falas("Sem mais conversas, encontre um display para mim, ele esta no numero 41, nao precisa coleta-lo");
+
+    Sleep(intervalo*5);
+}
+
+void introducao_3 (){
+    int input;
+
+    system("cls");
+
+    print_falas ("...");
+
+    cout << "1. Eu posso falar dessa vez?" << endl;
+    cout << "2. O que foi agora?" << endl;
+    cout << "3. Vou fazer uma reclamacao sua, cade a comunicacao com usuario??" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "- Eu posso falar dessa vez?" << endl;
+
+            print_falas ("Pode, o senior reclamou da falta de comunicacao de usuario");
+            break;
+
+        case 2:
+            cout << "- O que foi agora?" << endl;
+
+            print_falas ("Com o fiasco da ultima fase, recebi muitas criticas");
+            print_falas ("Na verdade, das duas ultimas, a segunda recebi mais feedback negativo que nunca");
+            break;
+
+        case 3:
+            cout << "- Vou fazer uma reclamacao sua, cade a comunicacao com usuario??" << endl;
+
+            print_falas ("Desta vez tem, juro! Pelo menos nesse comeco");
+            break;
+
+        default:
+            cout << "(Voce decide ser rebelde e apertar o botao " + to_string(input) + ", que nao estava nas opcoes dadas)" << endl;
+
+            print_falas ("Usuarios sendo usuarios... eu acho....");
+            break;
+    }
+
+    Sleep(intervalo);
+
+    cout << "1. O que eu preciso fazer agora?" << endl;
+    cout << "2. A personalidade desse programa ta diferente" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "- O que eu preciso fazer agora?" << endl;
+
+            print_falas ("Direto ao ponto hein");
+            break;
+
+        case 2:
+            cout << "- A personalidade desse programa ta diferente" << endl;
+
+            print_falas ("Cansei de ser alguem que nunca fui!");
+            break;
+
+        default:
+            cout << "(Tive uma ideia! apertarei " + to_string(input) + ")" << endl;
+
+            print_falas ("Isso usuario! De o seu melhor!!");
+            break;
+    }
+
+    Sleep(intervalo);
+
+    print_falas ("Agora o tema da busca sera pesquisa em texto");
+    print_falas ("A grosso modo, iremos compactar o texto e a parte procurada");
+    print_falas ("Depois disso, procuraremos padroes que podem ou nao corresponder ao que queremos");
+    print_falas ("Eu digo iremos e procuraremos, mas quem vai fazer isso é vc :)");
+    print_falas ("Bem nao e bem um texto que iremos buscar....");
+    print_falas ("Voce vai entender melhor quando comecar");
+    print_falas ("Sem corpo mole vamos, la!");
+}
 
 void Busca_Texto (){
     introducao_3();
@@ -365,186 +541,4 @@ void Busca_Sequencial (){
 
     print_falas("Parabens! Voce coletou todos os resistores pedidos.");
     print_falas("A primeira etapa foi concluida!");
-}
-
-void introducao_1 (){
-    int input;
-
-    system("cls");
-
-    print_falas ("Saudacoes, voce esta na aplicacao da empresa Volt & Cia.");
-    print_falas ("Aqui voce tera uma introducao de sua funcao na empresa.");
-
-    cout << "1. Nao estou pronto para entrar no mercado de trabalho ainda" << endl;
-    cout << "2. Oba amo trabalhar" << endl;
-    cout << "3. Quero aumento!" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input){
-        case 1:
-            cout << "- Nao estou pronto para entrar no mercado de trabalho ainda" << endl;
-            break;
-
-        case 2:
-            cout << "- Oba amo trabalhar" << endl;
-            break;
-
-        case 3:
-            cout << "- Quero aumento!" << endl;
-            break;
-
-        default:
-            cout << "(Voce diz coisas que nao foram esperadas pelo sistema)" << endl;
-            break;
-    }
-
-    Sleep(intervalo);
-
-    print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
-    print_falas ("Aguarde um momento enquanto a introducao carrega...");
-    print_falas ("Por favor, busque no armazem todos os resistores, eles estao etiquetados com o numero 3");
-
-    cout << "1. (Nao falar nada)" << endl;
-    cout << "2. Obrigado chefia!" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "(Voce decide nao falar nada respeitando a ordem do programa)" << endl;
-            break;
-
-        case 2:
-            cout << "- Obrigado chefia!" << endl;
-            print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
-            break;
-
-        default:
-            cout << "(Voce digita algo alem do escopo do sistema)" << endl;
-            print_falas ("ATENCAO! O GUIA DE INTRODUCAO NAO POSSUI COMUNICACAO COM USUARIO!");
-            break;
-    }
-    Sleep(intervalo);
-
-}
-
-void introducao_2 (){
-    int input;
-
-    system("cls");
-
-    print_falas ("Bem vindo a segunda etapa da introducao de Volt & Cia");
-
-    print_falas ("Antes de comecar tenho alguns avisos, como o tempo de desenvolvimento da aplicacao foi reduzido, algumas features foram afetadas...");
-    print_falas ("Sao elas: Comunicacao com usuario");
-
-    cout << "1. Mas nem tinha antes!" << endl;
-    cout << "2. Mas o projeto nem comecou direito e ja ta indo pro fundo do poco?" << endl;
-    cout << "3. ?" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    cout << "Bem vindo a segunda etapa da introducao de Volt & Cia" << endl;
-    cout << "Antes de comecar tenho alguns avisos, como o tempo de desenvolvimento da aplicacao foi reduzido, algumas features foram afetadas..." << endl;
-    cout << "Sao elas: Comunicacao com usuario" << endl;
-
-    print_falas("Desing de cada fase introdutoria");
-    print_falas("Resumindo: comunicacao 0 com usuario e reutilizacao de partes");
-    print_falas("Boa sorte!");
-    print_falas ("Algumas modificacoes foram feitas no armazem que sera buscado");
-    print_falas ("Modificacao numero 1: o armazem esta organizado em ordem crescente");
-    print_falas ("Modificacao numero 2: os seus passos serao contados e serao mostrados para toda empresa");
-    print_falas ("Entao o recomendado e fazer algo similar a uma busca binaria, ja que nao nos responsabilizamos por qualquer criticas direcionadas ao intelecto");
-    print_falas("Sem mais conversas, encontre um display para mim, ele esta no numero 41, nao precisa coleta-lo");
-
-    Sleep(intervalo*5);
-}
-
-void introducao_3 (){
-    int input;
-
-    system("cls");
-
-    print_falas ("...");
-
-    cout << "1. Eu posso falar dessa vez?" << endl;
-    cout << "2. O que foi agora?" << endl;
-    cout << "3. Vou fazer uma reclamacao sua, cade a comunicacao com usuario??" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "- Eu posso falar dessa vez?" << endl;
-
-            print_falas ("Pode, o senior reclamou da falta de comunicacao de usuario");
-            break;
-
-        case 2:
-            cout << "- O que foi agora?" << endl;
-
-            print_falas ("Com o fiasco da ultima fase, recebi muitas criticas");
-            print_falas ("Na verdade, das duas ultimas, a segunda recebi mais feedback negativo que nunca");
-            break;
-
-        case 3:
-            cout << "- Vou fazer uma reclamacao sua, cade a comunicacao com usuario??" << endl;
-
-            print_falas ("Desta vez tem, juro! Pelo menos nesse comeco");
-            break;
-
-        default:
-            cout << "(Voce decide ser rebelde e apertar o botao " + to_string(input) + ", que nao estava nas opcoes dadas)" << endl;
-
-            print_falas ("Usuarios sendo usuarios... eu acho....");
-            break;
-    }
-
-    Sleep(intervalo);
-
-    cout << "1. O que eu preciso fazer agora?" << endl;
-    cout << "2. A personalidade desse programa ta diferente" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "- O que eu preciso fazer agora?" << endl;
-
-            print_falas ("Direto ao ponto hein");
-            break;
-
-        case 2:
-            cout << "- A personalidade desse programa ta diferente" << endl;
-
-            print_falas ("Cansei de ser alguem que nunca fui!");
-            break;
-
-        default:
-            cout << "(Tive uma ideia! apertarei " + to_string(input) + ")" << endl;
-
-            print_falas ("Isso usuario! De o seu melhor!!");
-            break;
-    }
-
-    Sleep(intervalo);
-
-    print_falas ("Agora o tema da busca sera pesquisa em texto");
-    print_falas ("A grosso modo, iremos compactar o texto e a parte procurada");
-    print_falas ("Depois disso, procuraremos padroes que podem ou nao corresponder ao que queremos");
-    print_falas ("Eu digo iremos e procuraremos, mas quem vai fazer isso é vc :)");
-    print_falas ("Bem nao e bem um texto que iremos buscar....");
-    print_falas ("Voce vai entender melhor quando comecar");
-    print_falas ("Sem corpo mole vamos, la!");
 }

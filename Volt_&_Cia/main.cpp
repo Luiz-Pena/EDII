@@ -1,8 +1,6 @@
-#include <iostream>
 #include "Modulo1.cpp"
 #include "Modulo2.cpp"
-
-using namespace std;
+#include "Modulo3.cpp"
 
 int main()
 {
@@ -15,6 +13,9 @@ int main()
         cout << "3. Busca em texto" << endl;
         cout << "4. Compressao" << endl;
         cout << "5. Hashing" << endl;
+        cout << "6. Grafos" << endl;
+        cout << "7. Navegacao em grafos" << endl;
+        cout << "8. Otimizacao de caminho" << endl;
 
         cin >> ops;
 
@@ -37,6 +38,18 @@ int main()
 
             case 5:
                 Hashing();
+                break;
+
+            case 6:
+                Sub_Modulo1();
+                break;
+
+            case 7:
+                Sub_Modulo2();
+                break;
+
+            case 8:
+                Sub_Modulo3();
                 break;
 
             default: break;

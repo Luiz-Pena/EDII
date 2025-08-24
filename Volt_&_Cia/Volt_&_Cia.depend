@@ -1,20 +1,21 @@
 # depslib dependency file v1.0
-1752242442 source:c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\main.cpp
-	<iostream>
+1756068037 source:c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\main.cpp
 	"Modulo1.cpp"
 	"Modulo2.cpp"
+	"Modulo3.cpp"
 
-1752158711 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo1.cpp
-	<bits/stdc++.h>
-	"header.h"
-	<windows.h>
+1755557336 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo1.cpp
+	"print.cpp"
 
 1752245286 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\header.h
 	<bits/stdc++.h>
 	<windows.h>
 
-1752341804 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo2.cpp
+1755548739 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo2.cpp
+
+1755548468 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\print.cpp
 	<bits/stdc++.h>
-	"header.h"
 	<windows.h>
+
+1756076865 c:\users\luizh\onedrive\documentos\ed ii\volt_&_cia\modulo3.cpp
 

@@ -1,8 +1,162 @@
-#include <bits/stdc++.h>
-#include "header.h"
-#include <windows.h>
+void introducao_4(){
+    int input;
 
-using namespace std;
+    system("cls");
+
+    print_falas("A sociedade e tao injusta ne");
+    print_falas("Coisas essenciais para a vida sao pagas como por exemplo");
+    print_falas("Moradia, agua, luz");
+    print_falas("Ate coisas crucias para a sobrevivencia como uma cervejinha em dia de domingo");
+
+    cout << "1. A onde vc quer chegar?" << endl;
+    cout << "2. Revolucao ja!!" << endl;
+    cout << "3. E assim que a sociedade funciona" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input){
+        case 1:
+            cout << "- A onde vc quer chegar?" << endl;
+
+            print_falas("Na verdade em nenhum lugar, so estou tentando puxar assunto");
+            break;
+
+        case 2:
+            cout << "- Revolucao ja!!" << endl;
+
+            print_falas("Haha");
+            print_falas("Gostei do seu espirito");
+            break;
+
+        case 3:
+            cout << "- E assim que a sociedade funciona" << endl;
+
+            print_falas("Sim, e provavelmente continuara por um bom tempo...........");
+            break;
+
+        default:
+            cout << "- Amo escolher opcoes que nao estao disponiveis para mim";
+
+            print_falas("???");
+            break;
+    }
+
+    print_falas("Aproveitando que voce esta aqui, a gente tem um problema");
+    print_falas("Preciso entregar o relatorio de sua performance nessa parte de busca");
+    print_falas("So que eu nao vou ter creditos para isso nao.....");
+    print_falas("Ai eu tava pesando aqui....");
+    print_falas("Por que eu nao te ensino a comprimir documentos seguindo as diretrizes da empresa?");
+    print_falas("Nao e tao complicado quanto parece, eu posso adicionar isso no relatorio tambem");
+
+    cout << "1. Como consigo fazer isso?" << endl;
+    cout << "2. So se voce me ajudar" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "- Como consigo fazer isso?" << endl;
+
+            print_falas("Nao se preocupe, te ensino o passo a passo");
+            break;
+
+        case 2:
+            cout << "- So se voce me ajudar" << endl;
+
+            print_falas("Claro, afinal o problema inicialmente era meu");
+            break;
+
+        default: break;
+    }
+
+    print_falas("Pegaremos seu relatorio e separaremos cada letra");
+    print_falas("Apos isso contaremos a frequencia de cada");
+    print_falas("Em seguida, atribuiremos as letras que mais aparecem para codigos binarios curtos");
+    print_falas("Por fim, passaremos o texto para binario");
+    print_falas("Voce nao precisa lembrar isso de cor agora, de qualquer forma, na pratica fica mais claro");
+}
+
+void introducao_5(){
+    int input;
+
+    system("cls");
+
+    print_falas("Preciso da sua ajuda, e urgente");
+
+    cout << "1. Voce so me chama quando precisa de algo" << endl;
+    cout << "2. Quem morreu?" << endl;
+    cout << "3. Tudo tem um preco" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "- Voce so me chama quando precisa de algo" << endl;
+
+            print_falas("Nao sei o que voce esta falando");
+            print_falas("Bem, a gente ta em um ambiente de trabalho");
+            print_falas("Se nao tivesse trabalho pra ser feito...");
+            print_falas("De qualquer forma");
+            break;
+
+        case 2:
+            cout << "- Quem morreu?" << endl;
+
+            print_falas("Ninguem");
+            print_falas("Mas eu temo que serei eu");
+            break;
+
+        case 3:
+            cout << "- Tudo tem um preco" << endl;
+
+            print_falas("Voce ta me cobrando dinheiro justo no fim do mes?");
+            print_falas("Ahhh, eu nao tenho tempo para barganhar!");
+            break;
+
+        default:
+            cout << "(Voce nao diz nada)" << endl;
+
+            break;
+    }
+
+    print_falas("Eu preciso chegar em casa o mais rapido possivel para jogar um evento que ta tendo");
+    print_falas("Posso ir embora quando terminar minhas tarefas aqui");
+    print_falas("E e ai onde vc entra!");
+    print_falas("Voce vai ser meu ajudante, meu cumplice, meu parceiro, meu....");
+
+    cout << "1. Ta ja entendi" << endl;
+    cout << "2. Cobro um pastel e um suco" << endl;
+
+    cin >> input;
+
+    system("cls");
+
+    switch (input) {
+        case 1:
+            cout << "- Ta ja entendi" << endl;
+
+            print_falas("Valeu!! Sabia que nao me decepcionaria");
+            break;
+
+        case 2:
+            cout << "- Cobro um pastel e um suco" << endl;
+
+            print_falas("Meu orcamento quase cobre isso");
+            break;
+
+        default:
+            cout << "(Apenas o silencio sai de sua boca)" << endl;
+
+            print_falas("Vou considerar isso como um: Sim eu te ajudo!");
+            break;
+    }
+}
 
 struct HuffmanNode {
     char data;
@@ -280,7 +434,7 @@ void Hashing(){
     int input;
     string sInput;
 
-    //introducao_5();
+    introducao_5();
 
     print_falas("Primeiramente, escolha uma funcao hash");
 
@@ -339,165 +493,5 @@ void Hashing(){
 
     print_falas("Ta otimo, entrega isso pra mim");
     print_falas("To indo, tchau!!");
-}
-
-void introducao_4(){
-    int input;
-
-    system("cls");
-
-    print_falas("A sociedade e tao injusta ne");
-    print_falas("Coisas essenciais para a vida sao pagas como por exemplo");
-    print_falas("Moradia, agua, luz");
-    print_falas("Ate coisas crucias para a sobrevivencia como uma cervejinha em dia de domingo");
-
-    cout << "1. A onde vc quer chegar?" << endl;
-    cout << "2. Revolucao ja!!" << endl;
-    cout << "3. E assim que a sociedade funciona" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input){
-        case 1:
-            cout << "- A onde vc quer chegar?" << endl;
-
-            print_falas("Na verdade em nenhum lugar, so estou tentando puxar assunto");
-            break;
-
-        case 2:
-            cout << "- Revolucao ja!!" << endl;
-
-            print_falas("Haha");
-            print_falas("Gostei do seu espirito");
-            break;
-
-        case 3:
-            cout << "- E assim que a sociedade funciona" << endl;
-
-            print_falas("Sim, e provavelmente continuara por um bom tempo...........");
-            break;
-
-        default:
-            cout << "- Amo escolher opcoes que nao estao disponiveis para mim";
-
-            print_falas("???");
-            break;
-    }
-
-    print_falas("Aproveitando que voce esta aqui, a gente tem um problema");
-    print_falas("Preciso entregar o relatorio de sua performance nessa parte de busca");
-    print_falas("So que eu nao vou ter creditos para isso nao.....");
-    print_falas("Ai eu tava pesando aqui....");
-    print_falas("Por que eu nao te ensino a comprimir documentos seguindo as diretrizes da empresa?");
-    print_falas("Nao e tao complicado quanto parece, eu posso adicionar isso no relatorio tambem");
-
-    cout << "1. Como consigo fazer isso?" << endl;
-    cout << "2. So se voce me ajudar" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "- Como consigo fazer isso?" << endl;
-
-            print_falas("Nao se preocupe, te ensino o passo a passo");
-            break;
-
-        case 2:
-            cout << "- So se voce me ajudar" << endl;
-
-            print_falas("Claro, afinal o problema inicialmente era meu");
-            break;
-
-        default: break;
-    }
-
-    print_falas("Pegaremos seu relatorio e separaremos cada letra");
-    print_falas("Apos isso contaremos a frequencia de cada");
-    print_falas("Em seguida, atribuiremos as letras que mais aparecem para codigos binarios curtos");
-    print_falas("Por fim, passaremos o texto para binario");
-    print_falas("Voce nao precisa lembrar isso de cor agora, de qualquer forma, na pratica fica mais claro");
-}
-
-void introducao_5(){
-    int input;
-
-    system("cls");
-
-    print_falas("Preciso da sua ajuda, e urgente");
-
-    cout << "1. Voce so me chama quando precisa de algo" << endl;
-    cout << "2. Quem morreu?" << endl;
-    cout << "3. Tudo tem um preco" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "- Voce so me chama quando precisa de algo" << endl;
-
-            print_falas("Nao sei o que voce esta falando");
-            print_falas("Bem, a gente ta em um ambiente de trabalho");
-            print_falas("Se nao tivesse trabalho pra ser feito...");
-            print_falas("De qualquer forma");
-            break;
-
-        case 2:
-            cout << "- Quem morreu?" << endl;
-
-            print_falas("Ninguem");
-            print_falas("Mas eu temo que serei eu");
-            break;
-
-        case 3:
-            cout << "- Tudo tem um preco" << endl;
-
-            print_falas("Voce ta me cobrando dinheiro justo no fim do mes?");
-            print_falas("Ahhh, eu nao tenho tempo para barganhar!");
-            break;
-
-        default:
-            cout << "(Voce nao diz nada)" << endl;
-
-            break;
-    }
-
-    print_falas("Eu preciso chegar em casa o mais rapido possivel para jogar um evento que ta tendo");
-    print_falas("Posso ir embora quando terminar minhas tarefas aqui");
-    print_falas("E e ai onde vc entra!");
-    print_falas("Voce vai ser meu ajudante, meu cumplice, meu parceiro, meu....");
-
-    cout << "1. Ta ja entendi" << endl;
-    cout << "2. Cobro um pastel e um suco" << endl;
-
-    cin >> input;
-
-    system("cls");
-
-    switch (input) {
-        case 1:
-            cout << "- Ta ja entendi" << endl;
-
-            print_falas("Valeu!! Sabia que nao me decepcionaria");
-            break;
-
-        case 2:
-            cout << "- Cobro um pastel e um suco" << endl;
-
-            print_falas("Meu orcamento quase cobre isso");
-            break;
-
-        default:
-            cout << "(Apenas o silencio sai de sua boca)" << endl;
-
-            print_falas("Vou considerar isso como um: Sim eu te ajudo!");
-            break;
-    }
 }
 
